@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Schedule xmlns="$VFIROOT/etc/schedule.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="$VFIROOT/etc/schedule.xsd C:\ViaSat\SAM\etc\RemoteSchedule.xsd">
+<Task>
+    <TaskID>CBERS-4_2021_279_025543</TaskID>
+    <Action>ADD</Action>
+    <Track>
+        <Satellite>CBERS-4</Satellite>
+        <ConfigID>108</ConfigID>
+        <StartTime>2021 279 02:57:43</StartTime>
+        <EndTime>2021 279 03:09:54</EndTime>
+        <PrePass>
+            <StartOffsetTime>60</StartOffsetTime>
+        </PrePass>
+        <PostPass>
+            <Enabled>Yes</Enabled>
+        </PostPass>
+        <AntennaID>ANT_2</AntennaID>
+    </Track>
+    <Resources>
+        <Instrument>CortexHDR2</Instrument>
+    </Resources>
+</Task>
+<Task>
+    <TaskID>LANDSAT7_2021_279_120948</TaskID>
+    <Action>ADD</Action>
+    <Track>
+        <Satellite>LANDSAT7</Satellite>
+        <ConfigID>501</ConfigID>
+        <StartTime>2021 279 12:09:48</StartTime>
+        <EndTime>2021 279 12:23:44</EndTime>
+        <PrePass>
+            <StartOffsetTime>120</StartOffsetTime>
+        </PrePass>
+        <PostPass>
+            <Enabled>Yes</Enabled>
+        </PostPass>
+        <AntennaID>ANT_1</AntennaID>
+    </Track>
+    <Resources>
+        <Instrument>CortexHDR1</Instrument>
+    </Resources>
+</Task>
+<Task>
+    <TaskID>CBERS-4_2021_279_122140</TaskID>
+    <Action>ADD</Action>
+    <Track>
+        <Satellite>CBERS-4</Satellite>
+        <ConfigID>108</ConfigID>
+        <StartTime>2021 279 12:21:40</StartTime>
+        <EndTime>2021 279 12:30:34</EndTime>
+        <PrePass>
+            <StartOffsetTime>120</StartOffsetTime>
+        </PrePass>
+        <PostPass>
+            <Enabled>Yes</Enabled>
+        </PostPass>
+        <AntennaID>ANT_2</AntennaID>
+    </Track>
+    <Resources>
+        <Instrument>CortexHDR2</Instrument>
+    </Resources>
+</Task>
+<Task>
+    <TaskID>AMAZONIA1_2021_279_130858</TaskID>
+    <Action>ADD</Action>
+    <Track>
+        <Satellite>AMAZONIA1</Satellite>
+        <ConfigID>109</ConfigID>
+        <StartTime>2021 279 13:08:58</StartTime>
+        <EndTime>2021 279 13:22:24</EndTime>
+        <PrePass>
+            <StartOffsetTime>120</StartOffsetTime>
+        </PrePass>
+        <PostPass>
+            <Enabled>Yes</Enabled>
+        </PostPass>
+        <AntennaID>ANT_2</AntennaID>
+    </Track>
+</Task>
+<Task>
+    <TaskID>LANDSAT7_2021_279_134853</TaskID>
+    <Action>ADD</Action>
+    <Track>
+        <Satellite>LANDSAT7</Satellite>
+        <ConfigID>501</ConfigID>
+        <StartTime>2021 279 13:48:53</StartTime>
+        <EndTime>2021 279 14:00:02</EndTime>
+        <PrePass>
+            <StartOffsetTime>120</StartOffsetTime>
+        </PrePass>
+        <PostPass>
+            <Enabled>Yes</Enabled>
+        </PostPass>
+        <AntennaID>ANT_1</AntennaID>
+    </Track>
+    <Resources>
+        <Instrument>CortexHDR1</Instrument>
+    </Resources>
+</Task>
+<Task>
+    <TaskID>CBERS-4_2021_279_135702</TaskID>
+    <Action>ADD</Action>
+    <Track>
+        <Satellite>CBERS-4</Satellite>
+        <ConfigID>108</ConfigID>
+        <StartTime>2021 279 13:57:02</StartTime>
+        <EndTime>2021 279 14:12:13</EndTime>
+        <PrePass>
+            <StartOffsetTime>120</StartOffsetTime>
+        </PrePass>
+        <PostPass>
+            <Enabled>Yes</Enabled>
+        </PostPass>
+        <AntennaID>ANT_2</AntennaID>
+    </Track>
+    <Resources>
+        <Instrument>CortexHDR2</Instrument>
+    </Resources>
+</Task>
+<Task>
+    <TaskID>AMAZONIA1_2021_279_144721</TaskID>
+    <Action>ADD</Action>
+    <Track>
+        <Satellite>AMAZONIA1</Satellite>
+        <ConfigID>109</ConfigID>
+        <StartTime>2021 279 14:47:21</StartTime>
+        <EndTime>2021 279 15:01:09</EndTime>
+        <PrePass>
+            <StartOffsetTime>120</StartOffsetTime>
+        </PrePass>
+        <PostPass>
+            <Enabled>Yes</Enabled>
+        </PostPass>
+        <AntennaID>ANT_2</AntennaID>
+    </Track>
+</Task>
+<Task>
+    <TaskID>CBERS-4_2021_280_022103</TaskID>
+    <Action>ADD</Action>
+    <Track>
+        <Satellite>CBERS-4</Satellite>
+        <ConfigID>108</ConfigID>
+        <StartTime>2021 280 02:21:03</StartTime>
+        <EndTime>2021 280 02:36:12</EndTime>
+        <PrePass>
+            <StartOffsetTime>60</StartOffsetTime>
+        </PrePass>
+        <PostPass>
+            <Enabled>Yes</Enabled>
+        </PostPass>
+        <AntennaID>ANT_2</AntennaID>
+    </Track>
+    <Resources>
+        <Instrument>CortexHDR2</Instrument>
+    </Resources>
+</Task>
+</Schedule>

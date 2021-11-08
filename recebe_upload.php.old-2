@@ -1,0 +1,17 @@
+<?php
+$uploaddir = 'file://10.163.156.63/Arquivos%20do%20Site/wordpress/inpe/dados-xml/';
+$uploadfile = $uploaddir . basename($_FILES['userfile']['name']);
+
+echo '<pre>';
+if (move_uploaded_file($_FILES['userfile']['tmp_name'], $uploadfile)) {
+    echo "Arquivo válido e enviado com sucesso.\n";
+} else {
+    echo "Possível ataque de upload de arquivo!\n";
+}
+
+echo 'Aqui está mais informações de debug:';
+print_r($_FILES);
+
+print "</pre>";
+
+?>
